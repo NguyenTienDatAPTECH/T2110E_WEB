@@ -1,0 +1,50 @@
+h2{
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+}
+h3{
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+h4{
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+}
+h5{
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight:  normal;
+}
+h6{
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+}
+h7{
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+}
+h8{
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+}
+p{
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: 400;
+
+}
