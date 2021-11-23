@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+    color: lightyellow;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: "Roboto Light",sans-serif;
+    background-image: url("../images/wallpaper2.jpg");
+}
+.item{
+    width: 300;
+    height: 300;
+    background-color: grey;
+    float: left;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+#cv-contact{
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    line-height: 2.0;
+}
+#cv-education{
+    font-weight:200;
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid black;
+    line-height: 2.0;
+}
+#cv-expertise{
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+    line-height: 4.0;
+
+}
+.tieude{
+    font-weight:700;
+    font-size: 20px;
+}
+.indam{
+    font-weight: bold;
+}
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: deeppink;
+    background-color: gray;
+    margin-top: 50px;
+}
+.cochu{
+    font-size: 25px;
+}
+h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: deeppink;
+    text-transform: uppercase;
+
+}
+#cv-doanvan{
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    color: green;
+    font-weight: 400;
+    text-align: justify;
+    padding: 30px;
+    background-color: yellow;
+}
+h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: deeppink;
+    text-transform: uppercase;
+}
+#cv-doanvan2{
+    font-size: 16px;
+    color: green;
+    font-weight: 400;
+    text-align: justify;
+    padding: 50px;
+    background-color: yellow;
+
+}
+#cv-doanvan3{
+    font-size: 16px;
+    color: green;
+    font-weight: 400;
+    text-align: justify;
+    padding: 50px;
+    background-color: yellow;
+}
+ul{
+    color: green;
+    font-size: 16px;
+    padding: 20px;
+    background-color: yellow;
+
+}
