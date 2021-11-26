@@ -1,0 +1,61 @@
+body{
+    background-color: lightyellow;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.25;
+}
+h1{
+background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase ;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px black ;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+}
+#s-img{
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+.tieude{
+    font-weight: bold;
+    font-size: 18px;
+}
+.giatien{
+    font-weight: bold;
+}
+.chitiet{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    padding-right: 60px;
+    padding-left: 65px;
+
+}
+.item:hover{
+    transform: scale(1.1);
+}
