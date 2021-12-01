@@ -1,0 +1,55 @@
+body{
+    background-color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+div{
+    background-color: #fafafa;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+h1{
+    float: left;
+    color: #21759b;
+    text-align: left;
+    margin-top: -60px;
+
+}
+label{
+    color: black;
+    font-weight: 300;
+    line-height: 1.25;
+    font-size: 16px;
+}
+.phude1{
+    float: bottom;
+}
+.phude2{
+    float: bottom;
+}
+.luachon{
+
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+.thongtin{
+    background-color: grey;
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+    line-height: 1.5;
+
+
+}

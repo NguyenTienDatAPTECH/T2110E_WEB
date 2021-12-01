@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khaosat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="labs6.css">
+</head>
+<body>
+<div>
+<h1>
+    Create task
+</h1>
+    <br/>
+<form method="get" action="#">
+    <input class="thongtin" type="text" name="type" placeholder="Type">
+    <br/>
+    <select class="thongtin" name="working">
+        <option selected value="cpn">Company</option>
+        <option  value="sch">School</option>
+        <option  value="dtl">Distance learning</option>
+    </select>
+    <select class="thongtin" name="Opportunity">
+        <option selected value="opt">Opportunity</option>
+        <option  value="opt">Workhard</option>
+        <option  value="opt">Salary</option>
+        <br/>
+    </select>
+    <br/>
+    <label class="phude1">Optional</label>
+    <br/>
+    <input class="thongtin" type="text" name="taskname" placeholder="Taskname"/>
+    <br/>
+    <input class="thongtin" type="text" name="cc" placeholder="CC"/>
+    <br/>
+    <label class="phude2">Optional</label>
+    <br/>
+    <div class="luachon">
+    <label>Nature of request</label>
+        <br/>
+    <label><input type="checkbox" name="confirm">Ads review </label>
+        <br/>
+    <label><input type="checkbox" name="confirm">Keys review </label>
+        <br/>
+    <label><input type="checkbox" name="confirm">Extentions review </label>
+        <br/>
+    <label>Current reviewable status</label>
+    <br/>
+    <label><input type="checkbox" name="confirm">Approved</label>
+    <br/>
+    <label><input type="checkbox" name="confirm"> Not approved</label>
+    </div>
+    </div>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Button</button>
+</form>
+</div>
+</body>
+</html>
