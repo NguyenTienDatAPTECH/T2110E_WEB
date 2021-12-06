@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vietlott</title>
+</head>
+<body>
+<script type="text/javascript">
+    function TimKiem(arr,x){
+        for (var i =0;i<arr.length;i++){
+            if(arr[i]=x) return true;
+        }
+        return false;
+    }
+    function Vietlott(){
+    // co ngau nhien 1 bo 6 so tu 0->45 //
+        var lucky=[];
+        do{
+            var n = parseInt(Math.random()*46);
+            if (!lucky.includes(n)){ // chi cho vao mang khi chua co so nay
+                lucky.push(n);
+            }
+//.includes = tim kiem
+        }while (lucky.length<6);
+        console.log(lucky);
+        // nhap 5 mang, moi mang 6 so khong trung nhau tu 0 ->45
+        var vietlott = []; // se la 1 mang gom 5 mang con, moi mang con 6 so nguyen tu 0 ->45
+        for (var i =0; i<5;i++){
+            vietlott[i]=[];
+            do {
+                var n = prompt("nhap 1 so trong khoang tu 0 den 45:");
+                n = parseInt(n);
+                if (TimKiem(vietlott[i],n)){
+                    vietlott[i].push(n);
+                }
+            }while (vietlott[i].length<6);
+        }
+        // so sanh tung bo so da mua
+        for (var i=0;i<vietlott.length;i++){
+            if (SoSanh2Array(lucky,vietlott[i])){
+                alert("Chuc mung ban da trung 100 ty");
+                count++;
+                break;
+            }
+        }
+        if (count==0){
+            alert("chuc ban may man vao ky quay ke tiep");
+        }
+
+    }
+    // so sanh 2 mang co cung bo so hay ko
+    function SoSanh2Array(lk,vl){
+        var count = 0;
+        for (var i = 0;i<lk.length;i++){
+            if (TimKiem(vl,lk[i])){
+                count++;
+            }
+        }
+        if (count==lk.length) return true;
+        return false;
+    }
+</script>
+
+</body>
+</html>
