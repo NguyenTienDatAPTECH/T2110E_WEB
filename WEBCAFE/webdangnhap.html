@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="cafeweb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="section header">
+    <div class="container">
+        <figure class="top" >
+            <img src="images/logo-2.png" alt="#"/>
+            <figcaption>SURA COFFEE</figcaption>
+        </figure>
+        <ul class="top">
+            <li class="top-header"><a href="#">TRANG CHỦ</a></li>
+            <li class="top-header"><a href="#">MENU</a></li>
+            <li class="top-header"><a href="#">MUA NGAY</a></li>
+            <li class="top-header"><a href="#">LIÊN LẠC</a></li>
+            <li class="iconlienlac"><a href="#"><img src="images/icon-face.png"></a> </li>
+            <li class="iconlienlac"><a href="#"><img src="images/icon-chim.png"></a> </li>
+            <li class="iconlienlac"><a href="#"><img src="images/icon-I.png"></a> </li>
+            <li class="iconlienlac"><a href="#"><img src="images/icon-inta.png"></a> </li>
+            <li class="dangnhap"><a href="#">ĐĂNG NHẬP</a> </li>
+        </ul>
+    </div>
+</header>
+<div class="formdk">
+    <form method="get" action="#">
+        <p class="login">
+            Đăng nhập <br/>
+            <label>ID hoặc SĐT</label>
+            <input type="text" name="ID" placeholder="Enter ID or Telephone" required/><br/>
+            <label> Password</label>
+            <input type="password" name="pwd" placeholder="Enter password" required/><br/>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button">Button</button>
+        </p>
+        <p class="dangki">
+            Đăng kí thành viên <br/>
+        <label>Full Name</label>
+        <input type="text" name="fullname" placeholder="Full name" required/>
+        <br/>
+        <label> Email</label>
+        <input type="email" name="emailabc" placeholder="Enter email" required />
+        <br/>
+        <label>Password</label>
+        <input type="password" name="pwd" placeholder="Enter password" required />
+        <br/>
+        <label>Birthday</label>
+        <input type="date" name="bth" placeholder="Enter birthday" required />
+        <br/>
+        <label>Address</label>
+        <input type="text"  name="address" placeholder="Enter address" />
+        <br/>
+        <label>Telephone</label>
+        <input type="tel" name="Tel" placeholder="Enter telephone"/>
+        <br/>
+        <label>Gender</label>
+        <label><input type="radio" name="gender" value="Male"/>Male</label>
+        <label><input type="radio" name="gender" value="Female"/>Female</label>
+        <br/>
+        <label><input type="checkbox" name="confirm"/>Tôi đồng ý với các điều khoản</label>
+        <br/>
+            <label>description</label>
+            <textarea name="description" placeholder="Description" rows="5" cols="30"></textarea>
+            <br/>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button">Button</button>
+        </p>
+    </form>
+</div>
+</body>
+</html>
